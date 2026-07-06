@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid rgb(156, 27, 27);
+}
+.card-section {
+    width: 350px;
+    background:linear-gradient(
+        to bottom,
+        #284d75,
+        #242424
+    ) ;
+    color:white;
+    padding:25px;
+    border-radius:18px;
+    border:1px solid #5ba8ff;
+    position:relative;
+}
+.badge {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    background: #4b79b5;
+    padding: 6px 12px;  
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: bold;
+}
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.price {
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+.amount {
+    position: relative;
+}
+.dollar {
+    position: absolute;
+    top: 8px;
+    left: -12px;
+    font-size: 18px;
+    color: #a9a2a2;
+    font-weight: 50;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.number {
+    font-size: 70px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.month {
+    margin-left: 10px;
+    margin-bottom: 12px;
+    color: #dddddd;
+}
+h2{
+    margin-bottom:20px;
+    font-size: 20px;
+}
+button  {
+    width: 100%;
+    padding: 14px;
+    background:#4ca2ff;
+    border:none;
+    border-radius: 40px;
+    color: white;
+    font-weight: bold;
+    margin-bottom:35px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #7ea3cc;
+}
+
+ul {
+    list-style: none;
+}
+li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
